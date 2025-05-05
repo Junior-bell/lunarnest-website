@@ -1,39 +1,22 @@
 {
-  "compilerOptions": {
-    "target": "ES2017",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "noEmit": true,
-    "incremental": true,
-    "module": "esnext",
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "plugins": [
-      {
-        "name": "next"
+    "compilerOptions": {
+      "target": "esnext", // Use the latest ECMAScript features
+      "lib": ["dom", "dom.iterable", "esnext"], // Include DOM and ESNext features
+      "allowJs": true, // Allow JavaScript files
+      "skipLibCheck": true, // Skip type checking of declaration files
+      "strict": true, // Enable strict type checking
+      "forceConsistentCasingInFileNames": true, // Enforce consistent casing in imports
+      "noEmit": true, // Do not emit compiled files
+      "esModuleInterop": true, // Enable interoperability between CommonJS and ES modules
+      "moduleResolution": "node", // Use Node.js module resolution
+      "resolveJsonModule": true, // Allow importing JSON files
+      "isolatedModules": true, // Ensure each file can be transpiled in isolation
+      "jsx": "preserve", // Preserve JSX for Next.js
+      "baseUrl": ".", // Set the base directory for module resolution
+      "paths": {
+        "@/*": ["src/*"] // Alias for the src directory
       }
-    ],
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    }
-  },
-  "include": [
-    "next-env.d.ts",
-    ".next/types/**/*.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
-}
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"], // Include TypeScript files
+    "exclude": ["node_modules"] // Exclude node_modules
+  }
