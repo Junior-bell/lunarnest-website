@@ -4,7 +4,7 @@ import '../globals.css'; // Correct path to the global styles
 import Navbar from '../components/Navbar';// Import the Navbar component
 export default function PhilosophyPage() {
     return (
-      <div className="container py-5">
+      <div className="container py-5 bg-background text-foreground">
         <h1 className="mb-4 text-center">Our Philosophy</h1>
         <p className="lead text-center mb-5">
           LunarNest Capital is guided by timeless principles of patience, precision, and perspective — the wisdom of the owl.
