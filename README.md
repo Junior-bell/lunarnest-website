@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🌙 LunarNest Website
 
-## Getting Started
+Welcome to the LunarNest Website repository—a modern, responsive, and performance-optimized web application built using Next.js and TypeScript. This project exemplifies best practices in frontend development, emphasizing scalability, maintainability, and user experience.
 
-First, run the development server:
+🔗 Live Demo: lunarnest.vercel.app
 
-```bash
+
+---
+
+🛠️ Technologies Used
+
+Framework: Next.js
+
+Language: TypeScript
+
+Styling: Tailwind CSS
+
+Linting: ESLint
+
+Deployment: Vercel 
+
+
+
+---
+
+📁 Project Structure
+
+The project is organized as follows: 
+
+public/: Static assets like images and fonts.
+
+src/: Main application source code.
+
+app/: Contains application routes and pages.
+
+components/: Reusable UI components.
+
+
+components.json: Configuration for component management.
+
+eslint.config.mjs: ESLint configuration for code quality.
+
+jsconfig.json: JavaScript configuration for path aliases.
+
+next.config.mjs: Next.js configuration file.
+
+package.json: Project metadata and dependencies.
+
+tsconfig.json: TypeScript configuration. 
+
+
+
+---
+
+🚀 Features
+
+Responsive Design: Ensures optimal viewing experience across devices.
+
+Modular Architecture: Facilitates scalability and maintainability.
+
+Performance Optimized: Leveraging Next.js features for fast load times.
+
+Type Safety: Utilizing TypeScript for robust code.
+
+Code Quality: Maintained through ESLint integration. 
+
+
+
+---
+
+🧑‍💻 Getting Started
+
+To run this project locally:
+
+1. Clone the repository:
+
+git clone https://github.com/Junior-bell/lunarnest-website.git
+
+
+2. Navigate to the project directory:
+
+cd lunarnest-website
+
+
+3. Install dependencies:
+
+npm install
+
+
+4. Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📌 What You'll Learn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+By exploring this project, you'll gain insights into:
 
-## Deploy on Vercel
+Building scalable web applications with Next.js and TypeScript.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Implementing responsive designs using Tailwind CSS.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Maintaining code quality with ESLint.
+
+Deploying applications seamlessly with Vercel. 
+
+
+
+---
+
+📫 Contact
+
+Feel free to connect:
+
+LinkedIn: Shivam Wagh
+
+Email: waghshivam322@gmail.com
+
+
+
+---
+
+Thank you for visiting this repository. Your feedback and suggestions are always welcome!
+
